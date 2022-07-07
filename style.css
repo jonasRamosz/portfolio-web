@@ -7,7 +7,7 @@ body{
     margin-bottom: 40px;
 }
 .cabecalhoPrincipal .conteiner{
-    width: 1200px;
+    width: 80vw;
     height: 100px;
     margin: 0 auto;
     display: flex;
@@ -44,15 +44,17 @@ margin: 0 15px 0 0;
     font-family: 'Montserrat', sans-serif;
 }
 .conteudoCorpo{
+    display: flex;
+    
     width: 80vw;
     height: 60vh;
     border-radius: 20px;
-    display: flex;
     align-items: center;
     padding: 0 30px 0 30px ;
     background: #1a7a6e;
     margin-bottom: 40px;
 }
+
 .sobreMim{
     color: #faecec;
     font-style: italic;
@@ -66,4 +68,25 @@ margin: 0 15px 0 0;
 .sobreMim p{
     font-size: 1.2em;
     margin-bottom: 5px;
+}
+.conteudoContatos{
+    display: flex;
+    
+    width: 80vw;
+    height: 10vh;
+    border-radius: 20px;
+    align-items: flex-start;
+    padding: 30px 30px 0 30px ;
+    background: #1a7a6e;
+    margin-bottom: 40px;
+}
+.conteudoContatos .contatos{
+    
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.conteudoContatos .contatos img{
+    border-radius: 20px;
 }
