@@ -45,7 +45,6 @@ margin: 0 15px 0 0;
 }
 .conteudoCorpo{
     display: flex;
-    
     width: 80vw;
     height: 60vh;
     border-radius: 20px;
@@ -55,27 +54,27 @@ margin: 0 15px 0 0;
     margin-bottom: 40px;
 }
 
-.sobreMim{
+.texto{
     color: #faecec;
     font-style: italic;
     font-weight: bold;
+    margin-right: 30px;
 }
-.sobreMim h1{
+.texto h1{
     font-size: 2em;
     margin-bottom: 20px;
 
 }
-.sobreMim p{
+.texto p{
     font-size: 1.2em;
-    margin-bottom: 5px;
+    padding-bottom: 15px;
+    line-height: 30px;
+    
 }
 .conteudoContatos{
-    display: flex;
-    
     width: 80vw;
     height: 10vh;
     border-radius: 20px;
-    align-items: flex-start;
     padding: 30px 30px 0 30px ;
     background: #1a7a6e;
     margin-bottom: 40px;
@@ -90,3 +89,14 @@ margin: 0 15px 0 0;
 .conteudoContatos .contatos img{
     border-radius: 20px;
 }
+
+.frame{
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    border-radius: 20px;
+    padding: 30px 30px 30px 30px ;
+    background: #1a7a6e;
+    margin-bottom: 40px;
+}
+
